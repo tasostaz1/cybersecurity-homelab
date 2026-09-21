@@ -52,7 +52,11 @@ into here so the README stays a readable summary of the whole journey.)*
 
 ## About Me
 
-Ever since I was a kid I was always fascinated with technology. At 32 I decided to chase my passion and achieve my dreams.
+I'm switching careers into cybersecurity and just started — this repo is where I'm documenting that journey from day one, mistakes included.
+
+To get hands-on fast, I built a home lab (Kali Linux attacker, Windows 11 target, and Ubuntu running Wazuh as a SIEM) so I could practice both attacking and detecting rather than just reading theory. I'm still deciding between blue team (SOC/detection) and red team (pentesting) work, so early on I'm deliberately practicing both sides before specializing.
+
+Each write-up here covers a full exercise start to finish — including the dead ends and misconfigurations I hit along the way, because working through why something didn't work the first time taught me more than the parts that went smoothly.
 
 ## Contact
 
