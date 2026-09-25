@@ -26,7 +26,7 @@ All VMs run on an isolated internal network — no traffic leaves the lab.
 | # | Exercise | Techniques | MITRE ATT&CK | Status |
 |---|---|---|---|---|
 | 01 | [Nmap Recon + Wazuh Visibility Baseline](./01-nmap-wazuh-port-scan-detection.md) | Port scanning, firewall logging, custom detection rule | T1046 – Network Service Discovery | ✅ Complete |
-| 02 | Metasploit Exploitation → Windows Event Log Analysis | Exploitation, Sysmon/Event Log tracing, kill chain reconstruction | TBD | 🔲 Planned |
+| 02 | Metasploit Exploitation → Windows Event Log Analysis | Exploitation, Sysmon/Event Log tracing, kill chain reconstruction | TBD | ✅ Complete |
 | 03 | Brute-Force / Credential Attack Detection Engineering | Hydra/Crowbar, Sysmon, custom Wazuh alerting | T1110 – Brute Force | 🔲 Planned |
 
 ## Repo Structure
@@ -35,7 +35,7 @@ All VMs run on an isolated internal network — no traffic leaves the lab.
 .
 ├── README.md                                  # you are here
 ├── 01-nmap-wazuh-port-scan-detection.md
-├── 02-metasploit-event-log-analysis.md         # planned
+├── 02-metasploit-event-log-analysis.md         
 ├── 03-bruteforce-detection-engineering.md      # planned
 
 ```
