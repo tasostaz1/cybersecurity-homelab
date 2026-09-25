@@ -3,7 +3,7 @@
 **Lab environment:** Kali Linux (attacker) → Metasploitable2 (compromised beachhead) →
 Windows 11 (secondary target, Wazuh agent) → Ubuntu (Wazuh manager)
 **Date:** 25/09/2026
-**MITRE ATTACK mapping:** T1046 — Network Service Discovery, T1210-adjacent (lateral movement via pivot)
+**MITRE ATT&CK mapping:** T1046 — Network Service Discovery, T1210-adjacent (lateral movement via pivot)
 
 ## Objective
 
@@ -163,7 +163,7 @@ item in Exercise 1.
 
 ## Next Steps
 
-- [ ] Re-attempt the full port range scan with `THREADS 1` (sequential) to test whether
+- [✅] Re-attempt the full port range scan with `THREADS 1` (sequential) to test whether
       slowing the pivoted scan avoids the logging throttling issue, mirroring the `-T2`
       fix from Exercise 1
 - [ ] Tune rule `100011` and/or `4151` to exclude the host machine's own IP and standard
