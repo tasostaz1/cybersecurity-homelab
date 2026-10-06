@@ -27,7 +27,7 @@ All VMs run on an isolated internal network — no traffic leaves the lab.
 |---|---|---|---|---|
 | 01 | [Nmap Recon + Wazuh Visibility Baseline](./01-nmap-wazuh-port-scan-detection.md) | Port scanning, firewall logging, custom detection rule | T1046 – Network Service Discovery | ✅ Complete |
 | 02 | Metasploit Exploitation → Windows Event Log Analysis | Exploitation, Sysmon/Event Log tracing, kill chain reconstruction | TBD | ✅ Complete |
-| 03 | Brute-Force / Credential Attack Detection Engineering | Hydra/Crowbar, Sysmon, custom Wazuh alerting | T1110 – Brute Force | 🔲 Planned |
+| 03 | Brute-Force / Credential Attack Detection Engineering | Hydra/Crowbar, Sysmon, custom Wazuh alerting | T1110 – Brute Force | ✅ Complete |
 
 ## Repo Structure
 
@@ -36,7 +36,7 @@ All VMs run on an isolated internal network — no traffic leaves the lab.
 ├── README.md                                  # you are here
 ├── 01-nmap-wazuh-port-scan-detection.md
 ├── 02-metasploit-event-log-analysis.md         
-├── 03-bruteforce-detection-engineering.md      # planned
+├── 03-bruteforce-detection-engineering.md     
 
 ```
 
@@ -47,8 +47,6 @@ All VMs run on an isolated internal network — no traffic leaves the lab.
 - [ ] Log completeness and real-time detection can work against each other under load.
 - [ ] Always check for a SIEM's built-in detections before writing custom ones from scratch.
 
-*(This section grows as each write-up adds its own takeaways — pull the best one or two
-into here so the README stays a readable summary of the whole journey.)*
 
 ## About Me
 
